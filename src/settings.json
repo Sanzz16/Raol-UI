@@ -1,5 +1,5 @@
 {
-  "name": "Raol Api'S",
+  "name": "Sanzxmzz Api'S",
   "version": "v1.0.0",
   "description": "Simple and easy to use API.",
   "maintenance": {
@@ -12,8 +12,8 @@
     "status": "Active!"
   },
   "apiSettings": {
-    "creator": "VGX Team",
-    "apikey": ["vgx-team"]
+    "creator": "Sanzxmzz Team",
+    "apikey": ["sanzxmzz-team"]
   },
   "categories": [
     {
