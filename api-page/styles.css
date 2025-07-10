@@ -1905,6 +1905,35 @@ input:checked + .slider:before {
   z-index: 1060;
 }
 
+/* Portfolio Section Matching Theme */
+.portfolio-section {
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.portfolio-card {
+  transition: 0.3s ease all;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.portfolio-card h5 {
+  font-weight: 600;
+}
+
+.portfolio-card .btn {
+  font-size: 0.85rem;
+  padding: 5px 10px;
+}
+
 .toast {
   background-color: var(--card-background);
   color: var(--text-color);
