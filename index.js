@@ -76,7 +76,7 @@ app.use((req, res, next) => {
           error: "Service temporarily unavailable",
           message: "The API is currently under maintenance. Please try again later.",
           maintenance: true,
-          creator: settings.apiSettings?.creator || "VGX Team",
+          creator: settings.apiSettings?.creator || "Sanzxmzz Team",
         })
       }
 
@@ -184,7 +184,7 @@ app.use((req, res, next) => {
     if (data && typeof data === "object") {
       const responseData = {
         status: data.status ?? true,
-        creator: settings.apiSettings.creator || "VGX Team",
+        creator: settings.apiSettings.creator || "Sanzxmzz Team",
         ...data,
       }
       return originalJson.call(this, responseData)
