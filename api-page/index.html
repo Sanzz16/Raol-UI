@@ -1,65 +1,53 @@
+<!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <meta content="Modern API documentation and interactive testing interface. Explore our powerful APIs with ease." name="description"/>
-  <meta content="API, API Documentation, REST API, Sanzxmzz API, Sanzxmzz, Developer Tools" name="keywords"/>
-  <meta content="Sanzxmzz" name="author"/>
-  <!-- Open Graph / Facebook -->
-  <meta content="website" property="og:type"/>
-  <meta content="https://sanzxmzzhost.vercel.app/" property="og:url"/>
-  <meta content="Sanzxmzz Api'S - Modern API Documentation" property="og:title"/>
-  <meta content="Explore our various API endpoints with a modern and easy-to-use interface. Free APIs for developers including AI, random images, and more." property="og:description"/>
-  <meta content="https://sanzxmzzhost.vercel.app/" property="og:image"/>
-  <meta content="1200" property="og:image:width"/>
-  <meta content="630" property="og:image:height"/>
-  <meta content="image/png" property="og:image:type"/>
-  <meta content="Sanzxmzz Api'S" property="og:site_name"/>
-  <meta content="en_US" property="og:locale"/>
-  <!-- Twitter Card -->
-  <meta content="summary_large_image" name="twitter:card"/>
-  <meta content="https://sanzxmzzhost.vercel.app/" name="twitter:url"/>
-  <meta content="Sanzxmzz Api'S - Modern API Documentation" name="twitter:title"/>
-  <meta content="Explore our various API endpoints with a modern and easy-to-use interface. Free APIs for developers including AI, random images, and more." name="twitter:description"/>
-  <meta content="https://sanzxmzzhost.vercel.app/" name="twitter:image"/>
-  <meta content="Sanzxmzz Api'S - Modern API Documentation Interface" name="twitter:image:alt"/>
-  <!-- Additional Meta Tags -->
-  <meta content="#ffffff" name="theme-color"/>
-  <meta content="#ffffff" name="msapplication-TileColor"/>
-  <meta content="/src/icon.png" name="msapplication-TileImage"/>
-  <!-- WhatsApp specific -->
-  <meta content="https://sanzxmzzhost.vercel.app/" property="og:image:secure_url"/>
-  <link href="/src/icon.png" rel="icon" type="image/png"/>
-  <link href="/src/icon.png" rel="apple-touch-icon"/>
-  <link href="/src/icon.png" rel="shortcut icon"/>
-  <title id="page">
-   Sanzxmzz Api'S
-  </title>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <style>
-   body {
-      font-family: 'Outfit', sans-serif;
-      background-color: #f9fafb;
-      color: #1f2937;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-    /* Scrollbar for side nav */
-    #sideNavigation::-webkit-scrollbar {
-      width: 6px;
-    }
-    #sideNavigation::-webkit-scrollbar-thumb {
-      background-color: #9ca3af;
-      border-radius: 3px;
-    }
-  </style>
-  <!-- Structured Data -->
-  <script type="application/ld+json">
-   {
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Modern API documentation and interactive testing interface. Explore our powerful APIs with ease.">
+    <meta name="keywords" content="API, API Documentation, REST API, Sanzxmzz API, Sanzxmzz, Developer Tools">
+    <meta name="author" content="Sanzxmzz">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sanzxmzzhost.vercel.app/">
+    <meta property="og:title" content="Sanzxmzz Api'S - Modern API Documentation">
+    <meta property="og:description" content="Explore our various API endpoints with a modern and easy-to-use interface. Free APIs for developers including AI, random images, and more.">
+    <meta property="og:image" content="https://sanzxmzzhost.vercel.app/">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:site_name" content="Sanzxmzz Api'S">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://sanzxmzzhost.vercel.app/">
+    <meta name="twitter:title" content="Sanzxmzz Api'S - Modern API Documentation">
+    <meta name="twitter:description" content="Explore our various API endpoints with a modern and easy-to-use interface. Free APIs for developers including AI, random images, and more.">
+    <meta name="twitter:image" content="https://sanzxmzzhost.vercel.app/">
+    <meta name="twitter:image:alt" content="Sanzxmzz Api'S - Modern API Documentation Interface">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/src/icon.png">
+    
+    <!-- WhatsApp specific -->
+    <meta property="og:image:secure_url" content="https://sanzxmzzhost.vercel.app/">
+    
+    <link rel="icon" href="/src/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/src/icon.png">
+    <link rel="shortcut icon" href="/src/icon.png">
+    
+    <title id="page">Sanzxmzz Api'S</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="/assets/styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Sanzxmzz Api'S",
@@ -75,381 +63,188 @@
         "query-input": "required name=search_term_string"
       }
     }
-  </script>
- </head>
- <body class="flex flex-col min-h-screen">
-  <!-- Loading Screen -->
-  <div aria-live="polite" class="fixed inset-0 bg-white flex flex-col items-center justify-center z-50" id="loadingScreen" role="status">
-   <div class="flex flex-col items-center space-y-4">
-    <svg aria-hidden="true" class="animate-spin text-indigo-600" fill="none" height="80" stroke="currentColor" strokewidth="8" viewbox="0 0 100 100" width="80">
-     <circle cx="50" cy="50" r="40" stroke-opacity="0.2">
-     </circle>
-     <circle cx="50" cy="50" r="40" stroke-dasharray="62.8 62.8" stroke-dashoffset="62.8" stroke-linecap="round">
-      <animate attributename="stroke-dashoffset" dur="1.5s" repeatcount="indefinite" values="62.8;0">
-      </animate>
-     </circle>
-    </svg>
-    <p class="text-lg font-semibold text-gray-700">
-     Loading
-     <span class="loading-dots">
-      ...
-     </span>
-    </p>
-   </div>
-   <h5 class="mt-10 text-sm text-gray-400">
-    © 2025 Sanzxmzz Api'S Corp. All rights reserved.
-   </h5>
-  </div>
-  <!-- Side Navigation -->
-  <aside aria-label="Main Navigation" class="fixed top-0 left-0 h-full w-64 bg-white border-r border-gray-200 shadow-md flex flex-col z-40 transform -translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out overflow-y-auto" id="sideNavigation">
-   <div class="flex items-center justify-between px-6 py-5 border-b border-gray-200">
-    <span class="text-2xl font-extrabold text-indigo-600 tracking-wide select-none" id="sideNavName">
-     API
-    </span>
-    <div class="bg-indigo-100 text-indigo-700 text-xs font-semibold px-2 py-1 rounded-full select-none" id="versionHeader">
-     v1.0
-    </div>
-   </div>
-   <nav aria-label="Navigation Links" class="flex flex-col mt-6 space-y-1 px-2">
-    <a aria-current="page" class="side-nav-link flex items-center gap-3 px-4 py-3 rounded-md text-indigo-700 bg-indigo-100 font-semibold" href="#Home">
-     <i aria-hidden="true" class="fas fa-home">
-     </i>
-     <span>
-      Home
-     </span>
-    </a>
-    <a class="side-nav-link flex items-center gap-3 px-4 py-3 rounded-md text-gray-600 hover:text-indigo-700 hover:bg-indigo-50 transition-colors duration-200" href="#APIs">
-     <i aria-hidden="true" class="fas fa-plug">
-     </i>
-     <span>
-      APIs
-     </span>
-    </a>
-   </nav>
-  </aside>
-  <!-- Main Wrapper -->
-  <div class="flex-1 flex flex-col md:pl-64">
-   <!-- Header -->
-   <header class="main-header sticky top-0 z-30 bg-white border-b border-gray-200 flex items-center justify-between px-4 py-3 shadow-sm">
-    <button aria-controls="sideNavigation" aria-expanded="false" aria-label="Toggle navigation menu" class="md:hidden text-gray-600 hover:text-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded" id="menuToggle">
-     <i class="fas fa-bars fa-lg">
-     </i>
-    </button>
-    <div class="flex-1 max-w-lg mx-4">
-     <form class="relative" role="search">
-      <span class="absolute inset-y-0 left-3 flex items-center pointer-events-none text-gray-400">
-       <i class="fas fa-search">
-       </i>
-      </span>
-      <input aria-label="Search API" class="w-full pl-10 pr-10 py-2 rounded-md border border-gray-300 focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-gray-700" id="searchInput" placeholder="Search API..." type="text"/>
-      <button aria-label="Clear search" class="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-indigo-600 focus:outline-none" id="clearSearch" type="button">
-       <i class="fas fa-times">
-       </i>
-      </button>
-     </form>
-    </div>
-    <div class="header-actions flex items-center space-x-4">
-     <button aria-label="Notifications" class="relative text-gray-600 hover:text-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded" id="notificationBell">
-      <i class="far fa-bell fa-lg">
-      </i>
-      <span aria-hidden="true" class="absolute -top-1 -right-1 bg-red-600 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center" id="notificationBadge">
-      </span>
-     </button>
-    </div>
-   </header>
-   <!-- Main Content -->
-   <main class="flex-1 overflow-y-auto p-6 bg-gray-50" id="mainContent">
-    <!-- Hero Section -->
-    <section aria-labelledby="heroHeading" class="flex flex-col md:flex-row items-center justify-between gap-8 max-w-7xl mx-auto" id="Home">
-     <div class="hero-content max-w-xl text-center md:text-left">
-      <div class="hero-heading flex items-center gap-3 justify-center md:justify-start mb-4">
-       <h1 class="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 bg-clip-text text-transparent select-none" id="name">
-        Sanzxmzz Api'S
-       </h1>
-       <div class="bg-indigo-100 text-indigo-700 text-sm font-semibold px-3 py-1 rounded-full select-none" id="version">
-        v1.0
+    </script>
+</head>
+<body>
+    <div id="loadingScreen" role="status" aria-live="polite">
+        <div class="spinner-wrapper">
+            <svg class="spinner-logo" width="80" height="80" viewBox="0 0 100 100" aria-hidden="true">
+                <circle class="spinner-path" cx="50" cy="50" r="40" fill="none" stroke-width="8" />
+                <circle class="spinner-animation" cx="50" cy="50" r="40" fill="none" stroke-width="8" />
+            </svg>
+            <p>Loading<span class="loading-dots">...</span></p>
+          </div>  
+         <h5 class="copyright-text">© 2025 Sanzxmzz Api'S Corp. All rights reserved.</h5>
        </div>
-      </div>
-      <p class="hero-description text-gray-700 text-lg sm:text-xl" id="description">
-       A simple and easily customizable API documentation interface.
-      </p>
-     </div>
-     <div aria-hidden="true" class="hero-visual relative w-full max-w-md md:max-w-lg">
-      <div class="banner-container rounded-lg overflow-hidden shadow-lg">
-       <img alt="A modern and sleek banner image showing abstract technology and API concepts with vibrant colors and smooth gradients" class="w-full h-auto object-cover" height="400" id="dynamicImage" src="https://storage.googleapis.com/a1aa/image/df48cd44-812a-4844-9533-083db62268d4.jpg" width="600"/>
-      </div>
-      <img alt="Decorative abstract shape 1 with indigo color and smooth edges" class="absolute top-0 left-0 w-16 h-16 opacity-30 pointer-events-none select-none" height="100" src="https://storage.googleapis.com/a1aa/image/c0dfd300-a167-4556-1f72-fa688bfb6b4f.jpg" width="100"/>
-      <img alt="Decorative abstract shape 2 with purple color and smooth edges" class="absolute bottom-0 right-0 w-14 h-14 opacity-30 pointer-events-none select-none" height="80" src="https://storage.googleapis.com/a1aa/image/6885f308-53f0-4a0e-40ca-22831c986244.jpg" width="80"/>
-      <img alt="Decorative abstract shape 3 with pink color and smooth edges" class="absolute top-10 right-10 w-12 h-12 opacity-30 pointer-events-none select-none" height="60" src="https://storage.googleapis.com/a1aa/image/4b9c58a3-c0a7-4a95-3cb9-f678d529fe42.jpg" width="60"/>
-     </div>
-    </section>
-    <!-- APIs Section -->
-    <section aria-labelledby="apiSectionTitle" class="mt-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id="APIs">
-     <h2 class="text-3xl font-extrabold text-gray-900 mb-2" id="apiSectionTitle">
-      Available APIs
-     </h2>
-     <p class="section-description text-gray-600 mb-8">
-      Explore our collection of powerful and easy-to-use APIs.
-     </p>
-     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="apiContent">
-      <!-- API Card 1 -->
-      <article class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
-       <div>
-        <h3 class="text-xl font-semibold text-indigo-700 mb-2">
-         AI Text Generation API
-        </h3>
-        <p class="text-gray-600 mb-4">
-         Generate human-like text using advanced AI models for chatbots, content creation, and more.
-        </p>
-       </div>
-       <button aria-label="Open AI Text Generation API details" class="mt-auto self-start bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        View Details
-       </button>
-      </article>
-      <!-- API Card 2 -->
-      <article class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
-       <div>
-        <h3 class="text-xl font-semibold text-indigo-700 mb-2">
-         Random Image API
-        </h3>
-        <p class="text-gray-600 mb-4">
-         Fetch random images from various categories for placeholders, backgrounds, or creative projects.
-        </p>
-       </div>
-       <button aria-label="Open Random Image API details" class="mt-auto self-start bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        View Details
-       </button>
-      </article>
-      <!-- API Card 3 -->
-      <article class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
-       <div>
-        <h3 class="text-xl font-semibold text-indigo-700 mb-2">
-         Weather Data API
-        </h3>
-        <p class="text-gray-600 mb-4">
-         Access real-time weather data and forecasts for any location worldwide.
-        </p>
-       </div>
-       <button aria-label="Open Weather Data API details" class="mt-auto self-start bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        View Details
-       </button>
-      </article>
-      <!-- API Card 4 -->
-      <article class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
-       <div>
-        <h3 class="text-xl font-semibold text-indigo-700 mb-2">
-         Currency Exchange API
-        </h3>
-        <p class="text-gray-600 mb-4">
-         Get up-to-date currency exchange rates and convert between multiple currencies.
-        </p>
-       </div>
-       <button aria-label="Open Currency Exchange API details" class="mt-auto self-start bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        View Details
-       </button>
-      </article>
-      <!-- API Card 5 -->
-      <article class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
-       <div>
-        <h3 class="text-xl font-semibold text-indigo-700 mb-2">
-         User Authentication API
-        </h3>
-        <p class="text-gray-600 mb-4">
-         Secure user login, registration, and session management for your applications.
-        </p>
-       </div>
-       <button aria-label="Open User Authentication API details" class="mt-auto self-start bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        View Details
-       </button>
-      </article>
-      <!-- API Card 6 -->
-      <article class="bg-white rounded-lg shadow-md p-6 flex flex-col justify-between hover:shadow-lg transition-shadow duration-300">
-       <div>
-        <h3 class="text-xl font-semibold text-indigo-700 mb-2">
-         News Feed API
-        </h3>
-        <p class="text-gray-600 mb-4">
-         Retrieve latest news articles and headlines from multiple sources worldwide.
-        </p>
-       </div>
-       <button aria-label="Open News Feed API details" class="mt-auto self-start bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500">
-        View Details
-       </button>
-      </article>
-     </div>
-    </section>
-   </main>
-   <!-- Footer -->
-   <footer class="main-footer bg-white border-t border-gray-200 py-6 mt-auto">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-     <div class="text-gray-500 text-sm select-none">
-      © 2025 Sanzxmzz Api'S Corp. All rights reserved.
-     </div>
-     <div class="footer-middle flex items-center space-x-4">
-      <span class="text-gray-600 select-none">
-       Light
-      </span>
-      <label class="relative inline-flex items-center cursor-pointer" for="themeToggle">
-       <input aria-label="Toggle dark/light theme" class="sr-only" id="themeToggle" type="checkbox"/>
-       <div class="w-11 h-6 bg-gray-300 rounded-full peer peer-focus:ring-2 peer-focus:ring-indigo-500 peer-checked:bg-indigo-600 transition-colors duration-300">
-       </div>
-       <div class="absolute left-1 top-1 bg-white w-4 h-4 rounded-full shadow transform peer-checked:translate-x-5 transition-transform duration-300">
-       </div>
-      </label>
-      <span class="text-gray-600 select-none">
-       Dark
-      </span>
-     </div>
-     <nav class="footer-links flex space-x-6">
-      <a class="footer-link flex items-center gap-2 text-indigo-600 hover:text-indigo-800 font-semibold" href="https://wa.me/6285888180745" rel="noopener noreferrer" target="_blank">
-       <i aria-hidden="true" class="fab fa-whatsapp">
-       </i>
-       Info
-      </a>
-      <a class="footer-link flex items-center gap-2 text-indigo-600 hover:text-indigo-800 font-semibold" href="https://wa.me/6285888180745" rel="noopener noreferrer" target="_blank">
-       <i aria-hidden="true" class="fas fa-envelope">
-       </i>
-       Contact
-      </a>
-     </nav>
-    </div>
-   </footer>
-  </div>
-  <!-- Modal -->
-  <div aria-hidden="true" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50 hidden" id="apiResponseModal">
-   <div aria-labelledby="apiResponseModalLabel" aria-modal="true" class="bg-white rounded-lg shadow-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto flex flex-col" role="dialog">
-    <header class="flex items-start justify-between p-6 border-b border-gray-200">
-     <div>
-      <h3 class="text-2xl font-bold text-indigo-700" id="apiResponseModalLabel">
-       API Name
-      </h3>
-      <p class="text-gray-600 mt-1" id="apiResponseModalDesc">
-       API Description.
-      </p>
-     </div>
-     <button aria-label="Close modal" class="text-gray-500 hover:text-indigo-600 focus:outline-none" id="modalCloseBtn" type="button">
-      <i class="fas fa-times fa-lg">
-      </i>
-     </button>
-    </header>
-    <div class="modal-body p-6 flex flex-col space-y-6">
-     <section aria-labelledby="endpointLabel" class="endpoint-container">
-      <div class="flex items-center justify-between mb-2">
-       <span class="font-semibold text-gray-700" id="endpointLabel">
-        Endpoint
-       </span>
-       <button aria-label="Copy endpoint" class="text-indigo-600 hover:text-indigo-800 focus:outline-none" id="copyEndpoint" title="Copy to clipboard">
-        <i class="far fa-copy fa-lg">
-        </i>
-       </button>
-      </div>
-      <pre class="code-block bg-gray-100 rounded-md p-4 overflow-x-auto text-sm text-indigo-900 font-mono" id="apiEndpoint" tabindex="0"></pre>
-     </section>
-     <div class="query-input-container" id="apiQueryInputContainer">
-     </div>
-     <div aria-live="polite" class="hidden flex flex-col items-center space-y-2" id="apiResponseLoading" role="status">
-      <svg aria-hidden="true" class="animate-spin text-indigo-600" fill="none" height="50" stroke="currentColor" stroke-width="8" viewbox="0 0 100 100" width="50">
-       <circle cx="50" cy="50" r="40" stroke-opacity="0.2">
-       </circle>
-       <circle cx="50" cy="50" r="40" stroke-dasharray="62.8 62.8" stroke-dashoffset="62.8" stroke-linecap="round">
-        <animate attributename="stroke-dashoffset" dur="1.5s" repeatcount="indefinite" values="62.8;0">
-        </animate>
-       </circle>
-      </svg>
-      <p class="text-indigo-700 font-semibold">
-       Processing request...
-      </p>
-     </div>
-     <section aria-labelledby="responseLabel" class="response-container hidden" id="responseContainer">
-      <div class="flex items-center justify-between mb-2">
-       <span class="font-semibold text-gray-700" id="responseLabel">
-        Response
-       </span>
-       <button aria-label="Copy response" class="text-indigo-600 hover:text-indigo-800 focus:outline-none" id="copyResponse" title="Copy to clipboard">
-        <i class="far fa-copy fa-lg">
-        </i>
-       </button>
-      </div>
-      <pre class="code-block bg-gray-100 rounded-md p-4 overflow-x-auto text-sm text-indigo-900 font-mono hidden" id="apiResponseContent" tabindex="0"></pre>
-     </section>
-    </div>
-    <footer class="modal-footer p-6 border-t border-gray-200 flex justify-end">
-     <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-6 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 flex items-center gap-2" disabled="" id="submitQueryBtn">
-      <span>
-       Submit
-      </span>
-      <i class="fas fa-paper-plane">
-      </i>
-     </button>
-    </footer>
-   </div>
-  </div>
-  <!-- Toast Notification -->
-  <div class="fixed bottom-4 right-4 z-50">
-   <div aria-atomic="true" aria-live="assertive" class="hidden max-w-sm w-full bg-white border border-gray-300 rounded shadow-lg" id="notificationToast" role="alert">
-    <header class="flex items-center justify-between px-4 py-2 border-b border-gray-200">
-     <i aria-hidden="true" class="toast-icon fas fa-info-circle text-indigo-600 mr-2">
-     </i>
-     <strong class="toast-title flex-1 text-indigo-700 font-semibold">
-      Notification
-     </strong>
-     <button aria-label="Close notification" class="text-gray-500 hover:text-indigo-600 focus:outline-none" id="toastCloseBtn" type="button">
-      <i class="fas fa-times">
-      </i>
-     </button>
-    </header>
-    <div class="toast-body px-4 py-3 text-gray-700 text-sm">
-     This is a notification message.
-    </div>
-   </div>
-  </div>
-  <script>
-   // Toggle side nav on mobile
-    const menuToggle = document.getElementById('menuToggle');
-    const sideNav = document.getElementById('sideNavigation');
-    menuToggle.addEventListener('click', () => {
-      const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-      menuToggle.setAttribute('aria-expanded', !expanded);
-      sideNav.classList.toggle('-translate-x-full');
-    });
 
-    // Clear search input
-    const searchInput = document.getElementById('searchInput');
-    const clearSearch = document.getElementById('clearSearch');
-    clearSearch.addEventListener('click', () => {
-      searchInput.value = '';
-      searchInput.focus();
-    });
+    <aside class="side-nav" id="sideNavigation" aria-label="Main Navigation">
+        <div class="side-nav-logo">            
+            <span id="sideNavName">API</span>
+            <div id="versionHeader" class="badge-pill"></div>
+        </div>
+        
+        <nav class="side-nav-links" aria-label="Navigation Links">
+            <a href="#Home" class="side-nav-link active" aria-current="page">
+                <i class="fas fa-home" aria-hidden="true"></i>
+                <span>Home</span>
+            </a>
+            <a href="#APIs" class="side-nav-link">
+                <i class="fas fa-plug" aria-hidden="true"></i>
+                <span>APIs</span>
+            </a>
+        </nav>
+        
+    </aside>
 
-    // Notification badge example (empty means hidden)
-    const notificationBadge = document.getElementById('notificationBadge');
-    notificationBadge.textContent = '3'; // example count
-    if (!notificationBadge.textContent.trim()) {
-      notificationBadge.style.display = 'none';
-    } else {
-      notificationBadge.style.display = 'flex';
-    }
+    <div class="main-wrapper">
+        <header class="main-header" role="banner">
+            <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="sideNavigation">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+            
+            <div class="search-container" role="search">
+                <div class="input-group">
+                    <span class="input-group-text" aria-hidden="true"><i class="fas fa-search"></i></span>
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search API..." aria-label="Search API">
+                    <button class="clear-search" id="clearSearch" aria-label="Clear search">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="header-actions">
+                <button class="notification-bell" id="notificationBell" aria-label="Notifications">
+                    <i class="far fa-bell" aria-hidden="true"></i>
+                    <span class="notification-badge" id="notificationBadge" aria-hidden="true"></span>
+                </button>
+            </div>
+        </header>
+        
+        <main id="mainContent">
+            <section id="Home" class="hero-section" aria-labelledby="heroHeading">
+                <div class="hero-content">
+                    <div class="hero-heading">
+                        <h1 id="name" class="gradient-text">Sanzxmzz Api'S</h1>
+                        <div id="version" class="badge-pill">v1.0</div>
+                    </div>
+                    
+                    <p id="description" class="hero-description">A simple and easily customizable API documentation interface.</p>
+                </div>
+                
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="banner-container">
+                        <img id="dynamicImage" class="banner" src="/src/banner.jpg" alt="Banner API">
+                    </div>
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </section>
+            
+            <section id="APIs" class="api-section" aria-labelledby="apiSectionTitle">
+                <h2 id="apiSectionTitle" class="section-title">Available APIs</h2>
+                <p class="section-description">Explore our collection of powerful and easy-to-use APIs.</p>
+                
+                <div class="tab-content" id="apiContent">
+                    </div>
+            </section>
+        </main>
+        
+        <footer class="main-footer" role="contentinfo">
+            <div class="footer-content">
+                <div id="wm" class="copyright">&copy; 2025 Sanzxmzz Api'S Corp. All rights reversed.</div>
+                <div class="footer-middle">
+                    <div class="theme-switcher">
+                        <span>Light</span>
+                        <label class="switch" aria-label="Toggle dark/light theme">
+                            <input type="checkbox" id="themeToggle">
+                            <span class="slider round" aria-hidden="true"></span>
+                        </label>
+                        <span>Dark</span>
+                    </div>
+                </div>
+                
+                <nav class="footer-links" aria-label="Additional links">
+                    <a href="https://wa.me/6285888180745" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fab fa-whatsapp" aria-hidden="true"></i> Info
+                    </a>
+                    <a href="https://wa.me/6285888180745" target="_blank" rel="noopener noreferrer" class="footer-link">
+                        <i class="fas fa-envelope" aria-hidden="true"></i> Contact
+                    </a>
+                </nav>
+            </div>
+        </footer>
+    </div>
 
-    // Modal open/close logic (example)
-    const apiResponseModal = document.getElementById('apiResponseModal');
-    const modalCloseBtn = document.getElementById('modalCloseBtn');
-    modalCloseBtn.addEventListener('click', () => {
-      apiResponseModal.classList.add('hidden');
-      apiResponseModal.setAttribute('aria-hidden', 'true');
-    });
+    <div class="modal fade" id="apiResponseModal" tabindex="-1" aria-labelledby="apiResponseModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" id="modalDialog" role="document">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <div>
+                        <h3 class="modal-title" id="apiResponseModalLabel">API Name</h3>
+                        <p class="modal-desc mb-0" id="apiResponseModalDesc">API Description.</p>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
+                </header>
+                <div class="modal-body">
+                    <section class="endpoint-container" aria-labelledby="endpointLabel">
+                        <div class="endpoint-label">
+                            <span id="endpointLabel">Endpoint</span>
+                            <button class="copy-btn" id="copyEndpoint" title="Copy to clipboard" aria-label="Copy endpoint">
+                                <i class="far fa-copy" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <pre id="apiEndpoint" class="code-block" tabindex="0"></pre>
+                    </section>
+                    
+                    <div id="apiQueryInputContainer" class="query-input-container">
+                        </div>
+                    
+                    <div id="apiResponseLoading" class="d-none" role="status" aria-live="polite">
+                        <svg class="spinner-logo" width="50" height="50" viewBox="0 0 100 100" aria-hidden="true">
+                            <circle class="spinner-path" cx="50" cy="50" r="40" fill="none" stroke-width="8" />
+                            <circle class="spinner-animation" cx="50" cy="50" r="40" fill="none" stroke-width="8" />
+                        </svg>
+                        <p>Processing request...</p>
+                    </div>
+                    
+                    <section class="response-container d-none" id="responseContainer" aria-labelledby="responseLabel">
+                        <div class="response-label">
+                            <span id="responseLabel">Response</span>
+                            <button class="copy-btn" id="copyResponse" title="Copy to clipboard" aria-label="Copy response">
+                                <i class="far fa-copy" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <pre id="apiResponseContent" class="code-block d-none" tabindex="0"></pre>
+                    </section>
+                </div>
+                <footer class="modal-footer">
+                    <button id="submitQueryBtn" class="btn btn-primary" disabled>
+                        <span>Submit</span>
+                        <i class="fas fa-paper-plane ms-2" aria-hidden="true"></i>
+                    </button>
+                </footer>
+            </div>
+        </div>
+    </div>
 
-    // Toast close
-    const notificationToast = document.getElementById('notificationToast');
-    const toastCloseBtn = document.getElementById('toastCloseBtn');
-    toastCloseBtn.addEventListener('click', () => {
-      notificationToast.classList.add('hidden');
-    });
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="notificationToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <header class="toast-header">
+                <i class="toast-icon fas fa-info-circle me-2" aria-hidden="true"></i>
+                <strong class="me-auto toast-title">Notification</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </header>
+            <div class="toast-body">
+                This is a notification message.
+            </div>
+        </div>
+    </div>
 
-    // Hide loading screen after page load
-    window.addEventListener('load', () => {
-      const loadingScreen = document.getElementById('loadingScreen');
-      loadingScreen.style.display = 'none';
-    });
-  </script>
- </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/script.js"></script>
+</body>
 </html>
